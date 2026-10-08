@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Passat</title>
+        <style>
+            body{
+                background-image: url(Passat.jpg);
+                background-size: cover;
+                background-position: 0px;
+            }
+            .заголовок{
+                color: whitesmoke;
+                text-align: center;
+                font-size: 100px;
+                background-color: rgba(0, 0, 0, 0.4);
+                backdrop-filter:blur(0px) ;
+            
+                width: 600px;
+                cursor: pointer;
+                margin: auto;
+                box-shadow: 10px 10px 20px black;
+                border-radius: 15px;
+                margin-top: 0px;
+            }
+            .заголовок:hover{
+                transform: scale(1.15);
+                transition: 0.5s;
+                background-color: white;
+            }
+            .покупкак img{
+           width: 100px;
+            }
+            .покупкак {
+                  background-color: rgba(255, 255, 255, 0.3);
+                backdrop-filter:blur(0px);
+                display: flex;
+                align-items: center;
+            border: none;
+            padding: 0;
+            border-radius: 10px;
+            text-align: center;
+                transition: 0.3s;
+            }
+            .покупкак:hover{
+                transform: scale(1.08);
+                background-color: white;
+             
+           
+            }   
+            .покупкак h{
+                font-size: 30px;
+            }
+            .покраска{                                   
+                   background-color: rgba(255, 255, 255, 0.2);
+                backdrop-filter:blur(0px) ;
+                font-size: 30px;
+                border-radius: 10px;
+                box-shadow: 10px 10px 20px black;
+                display: flex;
+                align-items: center;
+              
+            }
+            .покраска img{
+                width: 100px;
+            }
+            .покраска:hover{
+                  background-color: white;
+                transform: scale(1.08);
+                transition: 0.3s;
+            }
+            .кнопки{
+                display: flex;
+                flex-direction: column;
+                width: 250px;
+                gap: 20px;
+               
+               
+   
+             
+            }
+            .внешний-вид{
+                 background-color: rgba(255, 255, 255, 0.2);
+                backdrop-filter:blur(0px) ;
+                font-size: 25px;
+                border-radius: 10px;
+                box-shadow: 10px 10px 20px black;
+                display: flex;
+                align-items: center;
+
+            }
+            .внешний-вид:hover{
+                  background-color: white;
+                transform: scale(1.08);
+                transition: 0.3s;
+
+            }
+            .внешний-вид img{
+                width: 120px;
+            }
+            .блок-кнопок{
+                 background-color: rgba(255, 255, 255, 0.3);
+    width: 300px;
+      min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+    
+  ;
+    border-radius: 20px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="заголовок">
+             <p>P A S S A T</p>
+        </div>
+        <div class="блок-кнопок">
+        <div class="кнопки">
+            
+            <button class="покупкак">
+                <img src="покупка.png">
+                <h>покупка</h>
+              </button>  
+           
+            <button class="покраска">
+                <img src="i.png">
+                <h>Покраска</h>
+
+            <button class="внешний-вид">
+                <img src="ChatGPT Image 8 окт. 2026 г., 19_50_52.png">
+                <h>Внешний вид</h>
+        </div>    
+    </div>
+    </body>
+</html>
